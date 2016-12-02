@@ -2,7 +2,7 @@
 	
 	<bean id="HandlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" />
 		
-	<bean name="/hello.html" class="com.sample.HelloController" />
+	<bean name="/helloIndex.html" class="com.sample.HelloController" />
 	
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">

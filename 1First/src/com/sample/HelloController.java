@@ -16,6 +16,7 @@ public class HelloController extends AbstractController{
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest arg0,
 			HttpServletResponse arg1) throws Exception {
+//		ModelAndView modelAndView = new ModelAndView(); // if not specified, .html name
 		ModelAndView modelAndView = new ModelAndView("hello"); // name of the jsp
 		modelAndView.addObject("msg", "hello from MVC"); 
 		return modelAndView;

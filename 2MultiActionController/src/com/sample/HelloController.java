@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
  *
  */
 @Controller
+@RequestMapping("/greet") // root path for actions in this controller
 public class HelloController{
 
 	@RequestMapping("/hello") //url pattern and this method name anything

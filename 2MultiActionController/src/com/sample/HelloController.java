@@ -25,6 +25,12 @@ public class HelloController{
 		modelAndView.addObject("msg", "Welcome from MVC with Annotation"); 
 		return modelAndView;
 	}
+	@RequestMapping("/welcome") //url pattern and this method name anything
+	public ModelAndView welco1() {
+		ModelAndView modelAndView = new ModelAndView("hello"); // name of the jsp
+		modelAndView.addObject("msg", "Welcome from MVC with Annotation"); 
+		return modelAndView;
+	}
 	
 	
 }

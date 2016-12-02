@@ -16,7 +16,7 @@ import org.springframework.web.servlet.mvc.AbstractController;
 @Controller
 public class HelloController{
 
-	@RequestMapping("/helloIndex")
+	@RequestMapping("/helloIndex") //url pattern and this method name anything
 	public ModelAndView handleRequestInternal(HttpServletRequest arg0,
 			HttpServletResponse arg1) throws Exception {
 //		ModelAndView modelAndView = new ModelAndView(); // if not specified, .html name

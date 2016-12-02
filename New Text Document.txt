@@ -1,1 +1,5 @@
 https://www.youtube.com/watch?v=qXIESogSi_Q&list=PLBgMUB7xGcO31B2gBmy1igpZn6LK78-CJ&index=6
+
+@Controller - To specify the Controller class
+@RequestMapping - url pattern for a handler or controller level
+@PathVariable - path variables from url {}

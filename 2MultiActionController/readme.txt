@@ -53,3 +53,7 @@
 		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
 		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 		at java.lang.Thread.run(Thread.java:744)
+		--------------------------------------------
+5. Update from 4RequestParam_HTML_form- url pattern same and method differs also np. Below path with different request method will work
+		@RequestMapping(value="/submitForm.html", method=RequestMethod.POST)
+		@RequestMapping(value="/submitForm.html", method=RequestMethod.GET)
